@@ -6,11 +6,14 @@ ctx.strokeStyle = '#BADA55'
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
 ctx.lineWidth = 25;
+
 let isDrawing = false;
 let lastX = 0;
 let lastY = 0;
 let hue = 0;
 let direction = true;
+
+
 function draw(e) {
   if(!isDrawing) return; 
   console.log(e);
